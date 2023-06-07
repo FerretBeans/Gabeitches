@@ -1,0 +1,48 @@
+body, html {
+  background-color: rgb(24, 24, 24);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links {
+    float: right;
+    word-spacing: 10px;
+}
+
+a:link {
+    color: fuchsia;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: fuchsia;
+    background: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: fuchsia;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.text {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.copyright {  
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
