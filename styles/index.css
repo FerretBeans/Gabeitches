@@ -5,44 +5,31 @@ body, html {
 }
 
 .links {
-    float: right;
-    word-spacing: 10px;
+  float: right;
+  word-spacing: 10px;
 }
 
-a:link {
-    color: fuchsia;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color: fuchsia;
-    background: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    text-decoration: underline;
-}
-  
-a:active {
-    color: fuchsia;
-    background-color: transparent;
-    text-decoration: underline;
+.link:active, .link:hover, .link:visited, .link:link {
+  color: fuchsia;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .text {
-    color: white;
+  color: white;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-.copyright {  
-    position: absolute;
-    bottom: 0;
-    left: 50%;
+.github {
+  color: white;
+}
+
+.copyright {
+  position: fixed;     
+  text-align: center;    
+  bottom: 5px;
+  width: 100%; 
 }
