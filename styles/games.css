@@ -10,3 +10,8 @@ li {
 .text {
     font-weight: bold;
 }
+
+.randomgame {
+    color: fuchsia;
+    text-decoration: none;
+}

@@ -2,6 +2,9 @@ body, html {
   background-color: rgb(24, 24, 24);
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .links {
@@ -17,10 +20,6 @@ body, html {
 
 .text {
   color: white;
-}
-
-h1 {
-  text-align: center;
 }
 
 .github {

@@ -1,0 +1,66 @@
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#myCanvas {
+    width: 600px;
+    height: 675px;
+    display: none;
+    border: 1px solid #000000;
+    float: left;
+}
+
+.configuration {
+    width: 250px;
+    height: 330px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+    border: 1px solid #000000;
+    margin-left: 5px;
+}
+
+.configuration .form input {
+    width: 25px;
+}
+
+.configuration .form input#submit {
+    width: 225px;
+}
+
+.configuration .form {
+    padding-left: 5px;
+}
+
+.a {
+    float: right;
+    word-spacing: 10px;
+}
+
+a:link {
+    color: fuchsia;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: fuchsia;
+    background: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(24, 24, 24);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: fuchsia;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  h1 {
+    text-align: center;
+  }
