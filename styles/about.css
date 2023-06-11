@@ -1,33 +1,38 @@
 body, html {
-    background-color: rgb(24, 24, 24);
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
+  background-color: rgb(24, 24, 24);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
   
-  .links {
-    float: right;
-    word-spacing: 10px;
-  }
+.links {
+  float: right;
+  word-spacing: 10px;
+}
   
-  .link:active, .link:hover, .link:visited, .link:link {
-    color: fuchsia;
-    background-color: transparent;
-    text-decoration: none;
-  }
+.link:active, .link:hover, .link:visited, .link:link {
+  color: fuchsia;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.weblink:active, .weblink:hover, .weblink:visited, .weblink:link {
+  color: white;
+  background-color: transparent;
+}
   
-  .text {
-    color: white;
-  }
+.text {
+  color: white;
+}
   
-  .copyright {  
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-  }
+.copyright {  
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+}
   
-  .github {
-    color: white;
-  }
+.github {
+  color: white;
+}
